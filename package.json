@@ -1,0 +1,13 @@
+{
+  "name": "inventering-tests",
+  "private": true,
+  "description": "Playwright-tester för inventeringsappen",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "selfsigned": "^2.4.1"
+  }
+}
