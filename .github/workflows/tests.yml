@@ -8,18 +8,13 @@ jobs:
   playwright:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    
-    # Här sätter vi basmappen för alla kommandon i hela jobbet
-    defaults:
-      run:
-        working-directory: github
 
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Installera beroenden
         run: npm install
@@ -35,5 +30,5 @@ jobs:
         if: failure()
         with:
           name: playwright-report
-          path: github/playwright-report/
+          path: playwright-report/
           retention-days: 14
