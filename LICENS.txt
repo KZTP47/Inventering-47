@@ -1,0 +1,13 @@
+UPPHOVSRÄTTSSKYDDAD PROGRAMVARA – ALLA RÄTTIGHETER FÖRBEHÅLLNA
+
+Denna programvara och dess källkod är upphovsrättsskyddad egendom.
+
+Det är INTE tillåtet att utan skriftligt tillstånd från upphovsrättsinnehavaren:
+ - kopiera, återpublicera eller distribuera programvaran eller delar av den,
+ - använda källkoden, helt eller delvis, i andra projekt,
+ - köra programvaran på andra webbadresser än den ursprungliga,
+ - skapa bearbetningar eller vidareutvecklingar av programvaran.
+
+Att repot är publikt läsbart på GitHub innebär inte att någon licens beviljas.
+Forkning via GitHubs funktioner medges endast i den utsträckning GitHubs
+användarvillkor kräver, och ger ingen rätt att använda eller sprida koden.
